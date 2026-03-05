@@ -1,0 +1,41 @@
+{
+  "name": "pwa2native",
+  "version": "1.0.0",
+  "description": "Convert PWA to Android APK and iOS packages",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev -p 3001",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "generate": "node src/cli/generate.js"
+  },
+  "keywords": [
+    "pwa",
+    "apk",
+    "ios",
+    "native",
+    "capacitor",
+    "bubblewrap"
+  ],
+  "author": "guistela",
+  "license": "MIT",
+  "dependencies": {
+    "@bubblewrap/cli": "latest",
+    "@capacitor/android": "latest",
+    "@capacitor/cli": "latest",
+    "@capacitor/core": "latest",
+    "@capacitor/ios": "latest",
+    "next": "latest",
+    "react": "latest",
+    "react-dom": "latest"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.2.1",
+    "@types/react": "19.2.14",
+    "autoprefixer": "^10.4.27",
+    "postcss": "^8.5.8",
+    "tailwindcss": "^4.2.1",
+    "typescript": "5.9.3"
+  }
+}
